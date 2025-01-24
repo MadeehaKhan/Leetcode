@@ -1,3 +1,5 @@
+//link: https://leetcode.com/problems/integer-to-roman/description/
+
 public class Solution
 {
     public static int GetMagnitude(int num)
@@ -14,9 +16,9 @@ public class Solution
     public string IntToRoman(int num)
     {
         //num first digit != 4 or 9
-            //find the biggest dictionary value to subtract and figure out the rest like normal
+        //find the biggest dictionary value to subtract and figure out the rest like normal
         //num first digit == 4 or 9
-            //represent the number as the subtracted version (smaller roman before bigger)
+        //represent the number as the subtracted version (smaller roman before bigger)
         //check if the number is a power of 10
         int pow10 = GetMagnitude(num);
         //could use a stringbuilder
